@@ -77,9 +77,7 @@ const activators = {
     return 'Reset'
   },
   downloadLink: (event, target) => {
-    // TODO: Implement on Firefox
-    mouseEvent(target, 'click', { altKey: true })
-    target.focus()
+    msg(1, 'downloadLink', target.href)
     return 'Reset'
   },
   focusLink: (event, target) => {

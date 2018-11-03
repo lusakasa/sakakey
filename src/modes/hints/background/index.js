@@ -67,6 +67,9 @@ export default {
         },
         openLinkInNewWindow: url => {
           browser.windows.create({ url })
+        },
+        downloadLink: url => {
+          browser.downloads.download({ url })
         }
       })
   }
