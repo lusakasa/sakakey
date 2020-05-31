@@ -191,6 +191,9 @@
         "copyURL": [
           [{ "code": "KeyY", "key": "y" }, { "code": "KeyY", "key": "y" }]
         ],
+        "copyToORG": [
+          [{ "code": "KeyY", "key": "y" }, { "code": "KeyO", "key": "o" }]
+        ],
         "clipboardCurrentTab": [
           [{ "code": "KeyY", "key": "y" }, { "code": "KeyF", "key": "f" }]
         ],

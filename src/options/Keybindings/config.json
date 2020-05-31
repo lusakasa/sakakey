@@ -474,6 +474,12 @@
     },
     {
       "type": "keybinding",
+      "label": "Copy Current ORG",
+      "key": "copyToORG",
+      "default": []
+    },
+    {
+      "type": "keybinding",
       "label": "Activate Clipboard in Current Tab",
       "key": "clipboardCurrentTab",
       "default": []
