@@ -26,7 +26,8 @@ export default {
         msg(currentTabTarget, 'exitHintsMode', nextMode)
         // If multiple hints, trigger hint rendering
       } else {
-        const hintStrings = generateHintStrings(hintChars, totalHints)
+        const uniqueChars = String.prototype.concat(...new Set(hintChars))
+        const hintStrings = generateHintStrings(uniqueChars, totalHints)
         let offset = 0
         hintsPerFrame.forEach(({ id, v }) => {
           const nextOffset = offset + v
